@@ -10,4 +10,8 @@ public class employee {
     public void setUsername(String username) {
         this.username = username;
     }
+
+    public employee(String username) {
+        this.username = username;
+    }
 }
